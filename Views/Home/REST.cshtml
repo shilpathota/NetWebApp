@@ -1,0 +1,110 @@
+﻿@model UseCaseInjector.Models.RESTModel
+@{
+    ViewBag.Title = "UseCase Injector";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>EnvironmentValues(@Html.Raw(Json.Encode(Model)));</script>
+
+        <div class="tab-pane fade show active" id="REST" role="tabpanel" aria-labelledby="rest-tab">
+            <h3 class="register-heading">REST Injection</h3>
+            <div class="row register-form">
+                <div class="container">
+                    @using(Html.BeginForm("ResultView_REST", "Home", FormMethod.Post, new { enctype = "multipart/form-data" ,id="form_REST",onsubmit="return showError()"}))
+                    { 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        @Html.DropDownListFor(model => model.Environment, new SelectList(new string[] { }), "Select Environment", htmlAttributes: new { @class = "form-control", @id = "Environment" })
+                                    </div>
+                                </div>
+                                <div class="col-md-4"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        @Html.DropDownListFor(model => model.Producer, new SelectList(new string[] { }), "Select Producer", htmlAttributes: new { @class = "form-control", @id = "Producer" })
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        @Html.DropDownListFor(model => model.Region, new SelectList(new string[] { }), "Select Region", htmlAttributes: new { @class = "form-control", @id = "Region" })
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        @Html.DropDownListFor(model => model.Usecase, new SelectList(new string[] { }), "Select UseCase", htmlAttributes: new { @class = "form-control", @id = "UseCase" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(model => model.VIN, htmlAttributes: new { @class = "form-control", @id = "FIN/VIN", @placeholder = "Enter FIN/VIN" })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        @Html.TextBoxFor(model => model.TrackingID, htmlAttributes: new { @class = "form-control", @id = "TID", @placeholder = "Enter TrackingID" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group input-group mb-3">
+                                        <input type="file" id="fileInput" class="form-control" name="fileInput" />
+                                        <div class="input-group-append">
+                                            <input type="button" class="btnUpload rest form-control" id="btnUpload" value="Upload" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        @Html.TextAreaFor(model => model.InputData, 5, 1, htmlAttributes: new { @class = "form-control", @id = "inputfile", @placeholder = "Paste the input file" })
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-5 text-center">
+                                    <div class="form-group">
+                                        <input type="submit" class="form-control btnRegister rest" value="Send" id="Submit_Rest" />
+                                    </div>
+                                </div>
+                                <div class="col-md-5 text-center">
+                                    <div class="form-group">
+                                        <input type="reset" class="form-control btnReset rest" value="Reset" />
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="container" style="margin:5px;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    @Html.TextArea("Result_REST","",5,1, htmlAttributes: new { @class = "form-control", @id = "Result_REST", @placeholder = "Result" ,@readonly="readonly"})
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>

@@ -1,0 +1,96 @@
+﻿@model UseCaseInjector.Models.MQModel
+@{
+    ViewBag.Title = "UseCase Injector";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+        <script>EnvironmentValues(@Html.Raw(Json.Encode(Model)));</script>
+        <div class="container">
+            @using (Html.BeginForm("ResultView_MQ", "Home", FormMethod.Post, new { enctype = "multipart/form-data", id = "form_MQ"}))
+            {
+                <div class="tab-pane fade show active" id="MQ" role="tabpanel" aria-labelledby="mq-tab">
+                    <h3 class="register-heading">MQ Injection</h3>
+                    <div class="row register-form">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        @Html.DropDownListFor(model => model.Environment, new SelectList(new string[] { }), "Select Environment", htmlAttributes: new { @class = "form-control", @id = "Environment" })
+                                    </div>
+                                </div>
+                                <div class="col-md-4"></div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        @Html.DropDownListFor(model => model.Market, new SelectList(new string[] { }), "Select Market", htmlAttributes: new { @class = "form-control", @id = "Market" })
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        @Html.DropDownListFor(model => model.Source, new SelectList(new string[] { }), "Select Source", htmlAttributes: new { @class = "form-control", @id = "Source" })
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        @Html.DropDownListFor(model => model.Application, new SelectList(new string[] { }), "Select Application", htmlAttributes: new { @class = "form-control", @id = "Application" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group input-group mb-3">
+                                        <input type="file" id="fileInput" class="form-control" name="fileInput" />
+                                        <div class="input-group-append">
+                                            <input type="button" class="btnUpload mq form-control" id="btnUpload" value="Upload" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        @Html.TextAreaFor(m => m.inputfileData, 5, 1, new { @class = "form-control", @id = "inputfile", @placeholder = "Paste the input file" })
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-5 text-center">
+                                    <div class="form-group">
+                                        <input type="submit" class="btnRegister mq" value="Send" id="Submit_Mq" />
+                                    </div>
+                                </div>
+                                <div class="col-md-5 text-center">
+                                    <div class="form-group">
+                                        <input type="reset" class="btnReset mq" value="Reset" />
+                                    </div>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                        <div class="container" style="margin:5px;">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        @Html.TextArea("Result_MQ", "", 5, 1, htmlAttributes: new { @class = "form-control", @id = "Result_MQ", @placeholder = "Result", @readonly = "readonly" })
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
