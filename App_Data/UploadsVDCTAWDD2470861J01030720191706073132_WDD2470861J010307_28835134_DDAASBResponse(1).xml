@@ -1,0 +1,3501 @@
+<?xml version="1.0" encoding="UTF-8"?><ees:eeSnapshot xmlns:ees="http://diagnostics.xsd.corpintra.net/ees" ees:dataModelVersion="3.1.0" ees:uid="WDD2470861J010307;2019-06-17T02:02:24.815+0000" xsi:schemaLocation="http://diagnostics.xsd.corpintra.net/ees EeSnapshot_v3.1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ees:metaInfo ees:functionalSnapshot="true" ees:spass2TypeId="180f">
+    <ees:languageCascade>
+      <ees:primary>XD</ees:primary>
+    </ees:languageCascade>
+    <ees:useCase>
+      <ees:useCaseHint>QTR</ees:useCaseHint>
+    </ees:useCase>
+    <ees:status ees:dataStatus="OK" ees:eesElement="ees:basicData" ees:processingStatus="OK">
+      <ees:message>
+        <ees:messageCode>VDC0000</ees:messageCode>
+      </ees:message>
+    </ees:status>
+    <ees:status ees:dataStatus="OK" ees:eesElement="ees:standardMaintenanceData" ees:processingStatus="OK">
+      <ees:message>
+        <ees:messageCode>VDC0000</ees:messageCode>
+      </ees:message>
+    </ees:status>
+    <ees:status ees:dataStatus="OK" ees:eesElement="ees:ecuList" ees:processingStatus="OK">
+      <ees:message>
+        <ees:messageCode>VDC0000</ees:messageCode>
+      </ees:message>
+    </ees:status>
+    <ees:status ees:dataStatus="OK" ees:eesElement="ees:snapshotAffectedFunctionList" ees:processingStatus="OK">
+      <ees:message>
+        <ees:messageCode>VDC0000</ees:messageCode>
+      </ees:message>
+    </ees:status>
+    <ees:status ees:dataStatus="OK" ees:eesElement="ees:warningData" ees:processingStatus="OK">
+      <ees:message>
+        <ees:messageCode>VDC0000</ees:messageCode>
+      </ees:message>
+    </ees:status>
+  </ees:metaInfo>
+  <ees:vehicleIdentData ees:chassisNumber="WDD2470861J010307">
+    <ees:countryCode ees:type="XD">
+      <ees:text ees:textId="ITR_47"/>
+    </ees:countryCode>
+    <ees:modelSeries ees:type="XD">
+      <ees:freeText ees:content="247B"/>
+    </ees:modelSeries>
+    <ees:modelType ees:type="XD">
+      <ees:freeText ees:content="247.086"/>
+    </ees:modelType>
+    <ees:modelYear ees:type="XD">
+      <ees:freeText ees:content="2019"/>
+    </ees:modelYear>
+    <ees:steering ees:type="XD">
+      <ees:text ees:textId="ITR_1208"/>
+    </ees:steering>
+  </ees:vehicleIdentData>
+  <ees:collectingSystem ees:dateTime="2019-06-17T02:02:23.728Z" ees:name="HERMES" ees:tdTrigger="Monitoring">
+    <ees:version ees:name="CODE" ees:number="2479027703FFFFF"/>
+    <ees:version ees:name="DATA" ees:number="0009024648001FF"/>
+    <ees:transportingSystem ees:dateTime="2019-06-17T02:02:23.728Z" ees:jobId="VDCTAWDD2470861J01030720191706073132" ees:name="TSP"/>
+  </ees:collectingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:23Z" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="BDA">
+    <ees:version ees:name="CODE" ees:number="4.1.2"/>
+    <ees:version ees:name="DATA" ees:number="0.4"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:24Z" ees:eesVersion="3.1.0" ees:name="SDT">
+    <ees:version ees:name="CODE" ees:number="4.0.0"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:24+00:00" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="SDT"/>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:24Z" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="WDA">
+    <ees:version ees:name="CODE" ees:number="3.6.0"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T04:02:16+02:00" ees:name="XD">
+    <ees:version ees:name="DATA" ees:number="BD 05/2019"/>
+    <ees:version ees:name="CODE" ees:number="24.12.3.1"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T04:02:23" ees:name="SDA">
+    <ees:version ees:name="DATA" ees:number="BXD190424141658"/>
+    <ees:version ees:name="CODE" ees:number="XDM 2.7.5"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:24Z" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="SZF">
+    <ees:version ees:name="CODE" ees:number="1.7.2"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:23.728Z" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="Finisher">
+    <ees:version ees:name="DATA" ees:number="6.5.2"/>
+    <ees:version ees:name="CODE" ees:number="2.12.0"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:24Z" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="FKT">
+    <ees:version ees:name="CODE" ees:number="4.2.2"/>
+    <ees:version ees:name="DATA" ees:number="05/2019"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:24Z" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="SDA">
+    <ees:version ees:name="DATA" ees:number="1.2.1"/>
+    <ees:version ees:name="CODE" ees:number="4.2.0"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:24Z" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="PreQualifier">
+    <ees:version ees:name="CODE" ees:number="2.3.0"/>
+  </ees:transformingSystem>
+  <ees:transformingSystem ees:dateTime="2019-06-17T02:02:24Z" ees:jobId="aa996a42-3fa1-4da8-a68f-7740b162bbe2_QTR2" ees:name="Qualifier">
+    <ees:version ees:name="CODE" ees:number="2.12.0"/>
+    <ees:version ees:name="DDA-SD" ees:number="6.5.2"/>
+    <ees:version ees:name="DDA-CODE" ees:number="6.5.2.9.3.3"/>
+  </ees:transformingSystem>
+  <ees:basicData>
+    <ees:odometerValue>
+      <ees:physicalValue>
+        <ees:doubleValue>437.0</ees:doubleValue>
+        <ees:unit ees:prefix="k" ees:unit="m"/>
+      </ees:physicalValue>
+    </ees:odometerValue>
+    <ees:tank ees:type="Kraftstoff">
+      <ees:name ees:type="XD">
+        <ees:text ees:textId="8428-34"/>
+      </ees:name>
+      <ees:tankLevelRatio>
+        <ees:integerValue>100</ees:integerValue>
+      </ees:tankLevelRatio>
+    </ees:tank>
+    <ees:battery ees:type="Bordnetz">
+      <ees:name ees:type="XD">
+        <ees:text ees:textId="27-111"/>
+      </ees:name>
+      <ees:voltage>
+        <ees:physicalValue>
+          <ees:doubleValue>12.8</ees:doubleValue>
+          <ees:unit ees:unit="V"/>
+        </ees:physicalValue>
+      </ees:voltage>
+    </ees:battery>
+  </ees:basicData>
+  <ees:warningData>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2101256</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>112</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>432</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>51</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>3</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2101316</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>112</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>432</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>47</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>3</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2101301</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>112</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>432</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>34</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>3</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2098363</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>256</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>432</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>5</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>3</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2098361</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>128</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>432</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>31</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>3</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2098757</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>96</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>416</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>42</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>4</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2101322</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>112</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>416</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>99</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>4</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2098545</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>96</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>416</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>17</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>5</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2158593</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>320</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>320</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>2</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>9</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2098519</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>304</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>320</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>5</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>14</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2098554</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>320</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>320</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>1</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>15</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2098076</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>304</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>304</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>1</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>18</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2098336</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>208</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>288</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>3</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>20</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2101325</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>128</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>288</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>26</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>20</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+    <ees:warningMessageODC>
+      <ees:warningMessageID>
+        <ees:integerValue>2101326</ees:integerValue>
+      </ees:warningMessageID>
+      <ees:warningStatus>STATUS_NOT_ACTIVE</ees:warningStatus>
+      <ees:originalOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>128</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:originalOdometerValue>
+      <ees:mostRecentOdometerValue>
+        <ees:physicalValue>
+          <ees:integerValue>288</ees:integerValue>
+          <ees:unit ees:prefix="k" ees:unit="m"/>
+        </ees:physicalValue>
+      </ees:mostRecentOdometerValue>
+      <ees:frequencyCounter>
+        <ees:integerValue>25</ees:integerValue>
+      </ees:frequencyCounter>
+      <ees:ignitionCycleCounter>
+        <ees:integerValue>20</ees:integerValue>
+      </ees:ignitionCycleCounter>
+    </ees:warningMessageODC>
+  </ees:warningData>
+  <ees:standardMaintenanceData>
+    <ees:serviceCode>
+      <ees:stringValue>A</ees:stringValue>
+    </ees:serviceCode>
+    <ees:workshopCode>
+      <ees:stringValue>505</ees:stringValue>
+    </ees:workshopCode>
+    <ees:distanceToService>
+      <ees:physicalValue>
+        <ees:integerValue>24587</ees:integerValue>
+        <ees:unit ees:prefix="k" ees:unit="m"/>
+      </ees:physicalValue>
+    </ees:distanceToService>
+    <ees:timeToService>
+      <ees:physicalValue>
+        <ees:integerValue>358</ees:integerValue>
+        <ees:unit ees:unit="d"/>
+      </ees:physicalValue>
+    </ees:timeToService>
+    <ees:servicePriority>Time</ees:servicePriority>
+    <ees:serviceType>Signal not available</ees:serviceType>
+  </ees:standardMaintenanceData>
+  <ees:ecuList>
+    <ees:ecu ees:diogenesName="EZS167">
+      <ees:extendedEcuId ees:ecuSnapshotId="EZS167" ees:ecuType="MASTER"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N73"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N73"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="39-31"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_4726"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="00C00E" ees:hwObjectNumber="167 901 21 03" ees:hwSupplier="Continental" ees:hwSupplierCode="" ees:hwVersion="17/10 013" ees:swVersion="18/42 003"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="15/51 001"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="167 902 45 06" ees:flashwareType="CODE" ees:flashwareVersion="18/42 003" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="000 000 00 00" ees:flashwareType="CODE" ees:flashwareVersion="18/40 070" ees:swSupplier="Hella" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="4" ees:flashwareObjectNumber="000 000 00 00" ees:flashwareType="CODE" ees:flashwareVersion="18/40 070" ees:swSupplier="Hella" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="5" ees:flashwareObjectNumber="000 000 00 00" ees:flashwareType="CODE" ees:flashwareVersion="18/33 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="CPC_NG" ees:statusStored="true">
+      <ees:extendedEcuId ees:ecuSnapshotId="CPC_NG" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N127"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N127"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="38336-471"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_59179"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="02BE22" ees:hwObjectNumber="000 901 98 07" ees:hwSupplier="Continental" ees:hwSupplierCode="" ees:hwVersion="18/04 000" ees:swVersion="19/16 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareObjectNumber="000 904 93 00" ees:flashwareType="BOOT" ees:flashwareVersion="17/44 020" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 04 50" ees:flashwareType="CODE" ees:flashwareVersion="19/16 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="000 903 08 40" ees:flashwareType="CODE" ees:flashwareVersion="19/16 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:dtc ees:code="U041881" ees:statusActive="false" ees:statusEvent="false" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_6534"/>
+          <ees:text ees:textId="ITR_2606"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="6698"/>
+        <ees:linkToAffectedFunction ees:id="10454"/>
+        <ees:standardizedEnvironmentalData>
+          <ees:originalOdometerValue ees:printout="false">
+            <ees:physicalValue>
+              <ees:doubleValue>208</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:originalOdometerValue>
+          <ees:mostRecentOdometerValue ees:printout="false">
+            <ees:physicalValue>
+              <ees:doubleValue>208</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:mostRecentOdometerValue>
+          <ees:frequencyCounter ees:printout="false">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:frequencyCounter>
+          <ees:ignitionCycleCounter ees:printout="false">
+            <ees:doubleValue>4.0</ees:doubleValue>
+          </ees:ignitionCycleCounter>
+        </ees:standardizedEnvironmentalData>
+        <ees:failureShortDescription>MB_PKW/Steuergeraete/Antrieb/Antriebsstrang/CPC_NG_ODX/CPC_NG_ODX.gmf#SG/Pruefungen/Pruefungen%20fuer%20FCs/U041881/intern/Laufzeit</ees:failureShortDescription>
+        <ees:additionalEnvironmentalData ees:type="First_cus_accrpedlpoti1_perc" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="10054-16"/>
+            <ees:text ees:textId="1841-341">
+              <ees:freeText ees:content="(1)"/>
+            </ees:text>
+            <ees:freeText ees:content="(CUS_ACCRPEDLPOTI1_PERC)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>5.490198135375977</ees:doubleValue>
+              <ees:unit ees:unit="%"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_accrpedlpoti1_perc" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="10054-16"/>
+            <ees:text ees:textId="1841-341">
+              <ees:freeText ees:content="(1)"/>
+            </ees:text>
+            <ees:freeText ees:content="(CUS_ACCRPEDLPOTI1_PERC)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>5.490198135375977</ees:doubleValue>
+              <ees:unit ees:unit="%"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_accrpedlpoti2_perc" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="10054-16"/>
+            <ees:text ees:textId="1841-341">
+              <ees:freeText ees:content="(2)"/>
+            </ees:text>
+            <ees:freeText ees:content="(CUS_ACCRPEDLPOTI2_PERC)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>5.490198135375977</ees:doubleValue>
+              <ees:unit ees:unit="%"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_accrpedlpoti2_perc" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="10054-16"/>
+            <ees:text ees:textId="1841-341">
+              <ees:freeText ees:content="(2)"/>
+            </ees:text>
+            <ees:freeText ees:content="(CUS_ACCRPEDLPOTI2_PERC)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>5.490198135375977</ees:doubleValue>
+              <ees:unit ees:unit="%"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_adapcrsctrl_trq_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-32"/>
+            <ees:freeText ees:content="(First_cus_adapcrsctrl_trq_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>-27.75</ees:doubleValue>
+              <ees:unit ees:unit="N"/>
+              <ees:unit ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_adapcrsctrl_trq_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-32"/>
+            <ees:freeText ees:content="(First_cus_adapcrsctrl_trq_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>-27.75</ees:doubleValue>
+              <ees:unit ees:unit="N"/>
+              <ees:unit ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_adapcrsctrl_trq_reqsq" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-32"/>
+            <ees:freeText ees:content="(First_cus_adapcrsctrl_trq_reqsq)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_adapcrsctrl_trq_reqsq" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-32"/>
+            <ees:freeText ees:content="(First_cus_adapcrsctrl_trq_reqsq)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_adapcrsctrl_trqmax_mode_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_adapcrsctrl_trqmax_mode_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_adapcrsctrl_trqmax_mode_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_adapcrsctrl_trqmax_mode_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_can_veh_spd_kmh" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="97-23"/>
+            <ees:freeText ees:content="(CUS_CAN_VEH_SPD_KMH)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>60</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+              <ees:unit ees:exp="-1" ees:unit="h"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_can_veh_spd_kmh" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="97-23"/>
+            <ees:freeText ees:content="(CUS_CAN_VEH_SPD_KMH)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>60</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+              <ees:unit ees:exp="-1" ees:unit="h"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_eis_ignswstate" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="262-53"/>
+            <ees:freeText ees:content="(First_cus_eis_ignswstate)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>4.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_eis_ignswstate" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="262-53"/>
+            <ees:freeText ees:content="(First_cus_eis_ignswstate)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>4.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_eng_calcload" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="12737-14"/>
+            <ees:freeText ees:content="(First_cus_eng_calcload)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>4.313726902008057</ees:doubleValue>
+              <ees:unit ees:unit="%"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_eng_calcload" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="12737-14"/>
+            <ees:freeText ees:content="(First_cus_eng_calcload)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>4.313726902008057</ees:doubleValue>
+              <ees:unit ees:unit="%"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_eng_spd" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="27-150"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>2498</ees:doubleValue>
+              <ees:unit ees:exp="-1" ees:unit="min"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_eng_spd" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="27-150"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>2498</ees:doubleValue>
+              <ees:unit ees:exp="-1" ees:unit="min"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_esp_trq_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-32"/>
+            <ees:freeText ees:content="(First_cus_esp_trq_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>-500</ees:doubleValue>
+              <ees:unit ees:unit="N"/>
+              <ees:unit ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_esp_trq_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-32"/>
+            <ees:freeText ees:content="(First_cus_esp_trq_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>-500</ees:doubleValue>
+              <ees:unit ees:unit="N"/>
+              <ees:unit ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_esp_trq_reqsq" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_esp_trq_reqsq)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_esp_trq_reqsq" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_esp_trq_reqsq)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_gear_state" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_gear_state)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>3.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_gear_state" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_gear_state)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>3.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_ignswcan_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9992-23"/>
+            <ees:text ees:textId="10027-81"/>
+            <ees:freeText ees:content="(First_cus_ignswcan_mode)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_ignswcan_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9992-23"/>
+            <ees:text ees:textId="10027-81"/>
+            <ees:freeText ees:content="(First_cus_ignswcan_mode)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_ignswrun_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9992-23"/>
+            <ees:freeText ees:content="(CUS_IGNSWRUN_MODE)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_ignswrun_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9992-23"/>
+            <ees:freeText ees:content="(CUS_IGNSWRUN_MODE)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_state_trt" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="339649-41"/>
+            <ees:freeText ees:content="(Last_cus_state_trt)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_state_trt" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="339649-41"/>
+            <ees:freeText ees:content="(Last_cus_state_trt)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_tcm_trq_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="11813-26"/>
+            <ees:text ees:textId="39-41"/>
+            <ees:freeText ees:content="(First_cus_tcm_trq_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>-500</ees:doubleValue>
+              <ees:unit ees:unit="N"/>
+              <ees:unit ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_tcm_trq_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="11813-26"/>
+            <ees:text ees:textId="39-41"/>
+            <ees:freeText ees:content="(First_cus_tcm_trq_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>-500</ees:doubleValue>
+              <ees:unit ees:unit="N"/>
+              <ees:unit ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_tcm_trq_reqsq" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="11813-26"/>
+            <ees:text ees:textId="39-41"/>
+            <ees:freeText ees:content="(First_cus_tcm_trq_reqsq)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_tcm_trq_reqsq" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="11813-26"/>
+            <ees:text ees:textId="39-41"/>
+            <ees:freeText ees:content="(First_cus_tcm_trq_reqsq)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_tcm_trqmax_mode_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_tcm_trqmax_mode_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_tcm_trqmax_mode_req" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_tcm_trqmax_mode_req)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_trqcoor_info_uw" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_trqcoor_info_uw)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>290.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_trqcoor_info_uw" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_trqcoor_info_uw)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>290.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_trqreqirvrsloutadapcrsctrl_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_trqreqirvrsloutadapcrsctrl_mode)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_trqreqirvrsloutadapcrsctrl_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_trqreqirvrsloutadapcrsctrl_mode)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_trqreqirvrsloutesp_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_trqreqirvrsloutesp_mode)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_trqreqirvrsloutesp_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_trqreqirvrsloutesp_mode)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_trqreqirvrslouttcm_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_trqreqirvrslouttcm_mode)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_trqreqirvrslouttcm_mode" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_cus_trqreqirvrslouttcm_mode)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_cus_trt" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8469-193"/>
+            <ees:freeText ees:content="(Last_cus_trt)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>148620.176</ees:doubleValue>
+              <ees:unit ees:unit="s"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_cus_trt" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8469-193"/>
+            <ees:freeText ees:content="(Last_cus_trt)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>148620.176</ees:doubleValue>
+              <ees:unit ees:unit="s"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_envd_set_id_1" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="envd_set_id_1"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_envd_set_id_1" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="envd_set_id_1"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_firststrt_mode_cus" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="Last_firststrt_mode_cus"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_firststrt_mode_cus" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="Last_firststrt_mode_cus"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_tco_sae" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="Last_tco_sae"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>92</ees:doubleValue>
+              <ees:unit ees:unit="?C"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_tco_sae" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="Last_tco_sae"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>92</ees:doubleValue>
+              <ees:unit ees:unit="?C"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_vb_sae" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_vb_sae)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>12.694999694824219</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_vb_sae" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_vb_sae)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>12.694999694824219</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="First_vcc_h_res_0" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_vcc_h_res_0)"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>5.000002384185791</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Last_vcc_h_res_0" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="142759-161"/>
+            <ees:freeText ees:content="(First_vcc_h_res_0)"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>5.000002384185791</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+      </ees:dtc>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="EMS71" ees:statusStored="true">
+      <ees:extendedEcuId ees:ecuSnapshotId="EMS71" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N3/10"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N3/10"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="1721-1">
+          <ees:freeText ees:content="EMS71"/>
+          <ees:freeText ees:content="M282"/>
+        </ees:text>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="53-289"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="004319" ees:hwObjectNumber="282 901 29 00" ees:hwSupplier="Continental" ees:hwSupplierCode="" ees:hwVersion="17/33 000" ees:swVersion="19/12 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareObjectNumber="282 904 04 00" ees:flashwareType="BOOT" ees:flashwareVersion="17/30 099" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="282 902 30 00" ees:flashwareType="CODE" ees:flashwareVersion="19/12 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="282 903 90 00" ees:flashwareType="CODE" ees:flashwareVersion="19/12 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:dtc ees:code="P045312" ees:statusActive="false" ees:statusEvent="false" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_2031"/>
+          <ees:text ees:textId="ITR_2726"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="196"/>
+        <ees:failureShortDescription>MB_PKW/Steuergeraete/Antrieb/Benzin/EMS71_ODX/EMS71_ODX.gmf#SG/Pruefungen/Pruefungen%20fuer%20FCs/P045312/intern/Laufzeit</ees:failureShortDescription>
+      </ees:dtc>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="FSCM_GEN5">
+      <ees:extendedEcuId ees:ecuSnapshotId="FSCM_GEN5" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N118"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N118"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="1321-1"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_58569">
+          <ees:freeText ees:content="09"/>
+        </ees:text>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="004508" ees:hwObjectNumber="000 901 53 03" ees:hwSupplier="Hella" ees:hwSupplierCode="" ees:hwVersion="17/30 000" ees:swVersion="18/44 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareObjectNumber="000 904 32 00" ees:flashwareType="BOOT" ees:flashwareVersion="17/19 000" ees:swSupplier="Hella" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 57 49" ees:flashwareType="CODE" ees:flashwareVersion="18/44 000" ees:swSupplier="Hella" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="000 903 07 31" ees:flashwareType="CODE" ees:flashwareVersion="18/44 000" ees:swSupplier="Hella" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="INVDCDC30EM01">
+      <ees:extendedEcuId ees:ecuSnapshotId="INVDCDC30EM01" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N129/1"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N129/1"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="9563-12"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="13066-11"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000410" ees:hwObjectNumber="177 901 28 00" ees:hwSupplier="Continental" ees:hwSupplierCode="" ees:hwVersion="16/24 000" ees:swVersion="19/03 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareObjectNumber="177 904 12 00" ees:flashwareType="BOOT" ees:flashwareVersion="18/06 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 65 11" ees:flashwareType="CODE" ees:flashwareVersion="19/03 000" ees:swSupplier="MB" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="177 903 66 03" ees:flashwareType="CODE" ees:flashwareVersion="19/05 000" ees:swSupplier="MB" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="TCM9FDCT" ees:statusStored="true">
+      <ees:extendedEcuId ees:ecuSnapshotId="TCM9FDCT" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="Y3/14n4"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="Y3/14n4"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="536193-1231">
+          <ees:freeText ees:content="8"/>
+        </ees:text>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="13295-21"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000236" ees:hwObjectNumber="000 901 04 04" ees:hwSupplier="ZF" ees:hwSupplierCode="" ees:hwVersion="17/30 000" ees:swVersion="17/31 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/31 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 000 00 00" ees:flashwareType="CODE" ees:flashwareVersion="17/31 000" ees:swSupplier="ZF" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="724 902 14 00" ees:flashwareType="CODE" ees:flashwareVersion="19/15 002" ees:swSupplier="ZF" ees:swSupplierCode=""/>
+      <ees:dtc ees:code="P061B00" ees:statusActive="false" ees:statusEvent="false" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_1326"/>
+          <ees:text ees:textId="ITR_403"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="132"/>
+        <ees:standardizedEnvironmentalData>
+          <ees:originalOdometerValue ees:printout="false">
+            <ees:physicalValue>
+              <ees:doubleValue>112</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:originalOdometerValue>
+          <ees:mostRecentOdometerValue ees:printout="false">
+            <ees:physicalValue>
+              <ees:doubleValue>224</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:mostRecentOdometerValue>
+          <ees:frequencyCounter ees:printout="false">
+            <ees:doubleValue>2.0</ees:doubleValue>
+          </ees:frequencyCounter>
+          <ees:ignitionCycleCounter ees:printout="false">
+            <ees:doubleValue>10.0</ees:doubleValue>
+          </ees:ignitionCycleCounter>
+        </ees:standardizedEnvironmentalData>
+        <ees:failureShortDescription>MB_PKW/Steuergeraete/Antrieb/Getriebe/TCM9FDCT_ODX/TCM9FDCT_ODX.gmf#SG/Pruefungen/Pruefungen%20fuer%20FCs/P061B00/intern/Laufzeit</ees:failureShortDescription>
+        <ees:additionalEnvironmentalData ees:type="Voltage_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="387-1"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>12.75</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Voltage_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="387-1"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>13.375</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Temperature_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="ITR_50698"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>51</ees:doubleValue>
+              <ees:unit ees:unit="?C"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Temperature_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="ITR_50698"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>65</ees:doubleValue>
+              <ees:unit ees:unit="?C"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Gear_actual_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="53-42"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="4"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Gear_actual_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="53-42"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="2"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Gear_target_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="53-72"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="4"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Gear_target_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="53-72"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="2"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Input_speed_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="27-150"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>4647.5</ees:doubleValue>
+              <ees:unit ees:exp="-1" ees:unit="min"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Input_speed_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="27-150"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>2861</ees:doubleValue>
+              <ees:unit ees:exp="-1" ees:unit="min"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Operating_Time_Status" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="339649-41"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>255.0</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Operating_Time" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8469-193"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue ees:nonSiUnitText="[float]">
+              <ees:doubleValue>NaN</ees:doubleValue>
+              <ees:unit ees:unit="NaU"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Pressure_1_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8789-61">
+              <ees:freeText ees:content="K1"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>0.772</ees:doubleValue>
+              <ees:unit ees:unit="bar"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Pressure_1_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8789-61">
+              <ees:freeText ees:content="K1"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>3.2920000000000003</ees:doubleValue>
+              <ees:unit ees:unit="bar"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Pressure_2_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8789-61">
+              <ees:freeText ees:content="K2"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>7.198</ees:doubleValue>
+              <ees:unit ees:unit="bar"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Pressure_2_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8789-61">
+              <ees:freeText ees:content="K2"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>5.308</ees:doubleValue>
+              <ees:unit ees:unit="bar"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_first_Jahr" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="460-182"/>
+            <ees:text ees:textId="2503-267"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:integerValue>2019</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_last_Jahr" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="460-182"/>
+            <ees:text ees:textId="2503-267"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:integerValue>2019</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_first_Qualitaet" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="ITR_7883"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="A Ausliefer"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_last_Qualitaet" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="ITR_7883"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="A Ausliefer"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Speed_1_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9526-51"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>3380</ees:doubleValue>
+              <ees:unit ees:exp="-1" ees:unit="min"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Speed_1_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9526-51"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>1875</ees:doubleValue>
+              <ees:unit ees:exp="-1" ees:unit="min"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Speed_2_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9526-52"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>4647</ees:doubleValue>
+              <ees:unit ees:exp="-1" ees:unit="min"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Speed_2_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9526-52"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>2860.5</ees:doubleValue>
+              <ees:unit ees:exp="-1" ees:unit="min"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="TimeSinceReset_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="23727-131"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:integerValue>576</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="TimeSinceReset_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="23727-131"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:integerValue>3007</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="EventIndicator" printout="false">
+          <ees:name ees:type="XD">
+            <ees:freeText ees:content="EventIndicator"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="Fault"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="External_Tester_Present_Flag" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="549-1"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="not present"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SymptomID_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SymptomID (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:integerValue>30</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SymptomID_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SymptomID (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:integerValue>30</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="TSL_Req_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="TSL-Req (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="D"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="TSL_Req_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="TSL-Req (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="D"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="TSL_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="TSL (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="D"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="TSL_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="TSL (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="D"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Reserved_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="Reserved (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:stringValue>0A 00 00 00 00 00 00 00 00 00 00 00 00 00</ees:stringValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Reserved_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="Reserved (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:stringValue>09 B2 43 9D 34 AC 8C 2C 84 3B 96 22 00 00</ees:stringValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SLP_ErrorID_first" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SLP-ErrorID (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:integerValue>446</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SLP_ErrorID_last" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SLP-ErrorID (last)"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:integerValue>446</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_first_Cycle" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) Cycle"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="A"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_last_Cycle" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) Cycle"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="A"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_first_Derivat" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="Software-Version Derivat"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="H Hybrid"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_last_Derivat" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="Software-Version Derivat"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="H Hybrid"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_first_Nr1" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) Nr1"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="0"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_last_Nr1" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) Nr1"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="0"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_first_Nr2" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) Nr2"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="1"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_last_Nr2" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) Nr2"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="1"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_first_SW_Stand_Rnd" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) SW-Stand.Rnd"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:doubleValue>1.399999976158142</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_last_SW_Stand_Rnd" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) SW-Stand.Rnd"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:doubleValue>7.199999809265137</ees:doubleValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_first_Vernetzung" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) Vernetzung"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="T STAR2.3"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="SoftwareVersion_last_Vernetzung" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="7847-451">
+              <ees:freeText ees:content="SoftwareVersion (last) Vernetzung"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="T STAR2.3"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+      </ees:dtc>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="ALC213">
+      <ees:extendedEcuId ees:ecuSnapshotId="ALC213" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N162"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N162"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="207745-32"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="207745-31"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000406" ees:hwObjectNumber="167 901 06 02" ees:hwSupplier="Delphi" ees:hwSupplierCode="" ees:hwVersion="17/27 000" ees:swVersion="18/16 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="15/28 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 26 05" ees:flashwareType="CODE" ees:flashwareVersion="18/16 000" ees:swSupplier="Delphi" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="BCMFA2">
+      <ees:extendedEcuId ees:ecuSnapshotId="BCMFA2" ees:ecuType="MASTER"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N10"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N10"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="8881-1"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_31566"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="001102" ees:hwObjectNumber="247 901 78 01" ees:hwSupplier="Continental" ees:hwSupplierCode="" ees:hwVersion="17/30 003" ees:swVersion="18/30 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/04 001"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 10 02" ees:flashwareType="CODE" ees:flashwareVersion="18/30 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:slaveEcu ees:diogenesName="BCMFA2" ees:statusStored="true">
+        <ees:extendedEcuId ees:ecuSnapshotId="SHM_FR205" ees:ecuType="SLAVE" ees:linVsgVariant="__NO_VSG_FILTER" ees:masterEcuSnapshotId="BCMFA2"/>
+        <ees:shortName ees:type="XD">
+          <ees:freeText ees:content="N25/17"/>
+        </ees:shortName>
+        <ees:longName ees:type="XD">
+          <ees:freeText ees:content="N25/17"/>
+          <ees:freeText ees:content="-"/>
+          <ees:text ees:textId="ITR_58528"/>
+          <ees:freeText ees:content="("/>
+          <ees:text ees:textId="ITR_58527"/>
+          <ees:freeText ees:content=")"/>
+        </ees:longName>
+        <ees:standardIdBlock ees:diagnosisVersion="00FFFF" ees:hwObjectNumber="??????????" ees:hwSupplier="Unidentified" ees:hwSupplierCode="" ees:hwVersion="" ees:swVersion=""/>
+        <ees:dtc ees:code="B22D718" ees:statusActive="false" ees:statusEvent="false" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+          <ees:failureText ees:type="XD">
+            <ees:text ees:textId="ITR_6670"/>
+            <ees:text ees:textId="ITR_402"/>
+          </ees:failureText>
+          <ees:linkToAffectedFunction ees:id="5383"/>
+          <ees:standardizedEnvironmentalData>
+            <ees:originalOdometerValue ees:printout="false">
+              <ees:physicalValue>
+                <ees:doubleValue>160</ees:doubleValue>
+                <ees:unit ees:prefix="k" ees:unit="m"/>
+              </ees:physicalValue>
+            </ees:originalOdometerValue>
+            <ees:mostRecentOdometerValue ees:printout="false">
+              <ees:physicalValue>
+                <ees:doubleValue>160</ees:doubleValue>
+                <ees:unit ees:prefix="k" ees:unit="m"/>
+              </ees:physicalValue>
+            </ees:mostRecentOdometerValue>
+            <ees:frequencyCounter ees:printout="false">
+              <ees:doubleValue>1.0</ees:doubleValue>
+            </ees:frequencyCounter>
+            <ees:ignitionCycleCounter ees:printout="false">
+              <ees:doubleValue>22.0</ees:doubleValue>
+            </ees:ignitionCycleCounter>
+          </ees:standardizedEnvironmentalData>
+          <ees:failureShortDescription>MB_PKW/Steuergeraete/Grundmodule/SAM/SAM%20hinten%20-%20STAR2/SHM_FR205.gmf#SG/Pruefungen/Pruefungen%20fuer%20FCs/Steuerung_li_re_BR177_247_118/B22D618_B22D718/Laufzeit_Kurzinfo</ees:failureShortDescription>
+          <ees:additionalEnvironmentalData ees:type="Operating_Time" printout="false">
+            <ees:name ees:type="XD">
+              <ees:text ees:textId="8469-193"/>
+            </ees:name>
+            <ees:value ees:occurrence="LAST_OCCURRENCE">
+              <ees:integerValue>145180465</ees:integerValue>
+            </ees:value>
+          </ees:additionalEnvironmentalData>
+          <ees:additionalEnvironmentalData ees:type="Operating_Time_Status" printout="false">
+            <ees:name ees:type="XD">
+              <ees:text ees:textId="339649-41"/>
+            </ees:name>
+            <ees:value ees:occurrence="LAST_OCCURRENCE">
+              <ees:integerValue>1</ees:integerValue>
+            </ees:value>
+          </ees:additionalEnvironmentalData>
+        </ees:dtc>
+      </ees:slaveEcu>
+      <ees:slaveEcu ees:diogenesName="BCMFA2" ees:statusStored="true">
+        <ees:extendedEcuId ees:ecuSnapshotId="SHM_FR205" ees:ecuType="SLAVE" ees:linVsgVariant="__NO_VSG_FILTER" ees:masterEcuSnapshotId="BCMFA2"/>
+        <ees:shortName ees:type="XD">
+          <ees:freeText ees:content="N25/17"/>
+        </ees:shortName>
+        <ees:longName ees:type="XD">
+          <ees:freeText ees:content="N25/17"/>
+          <ees:freeText ees:content="-"/>
+          <ees:text ees:textId="ITR_58528"/>
+          <ees:freeText ees:content="("/>
+          <ees:text ees:textId="ITR_58527"/>
+          <ees:freeText ees:content=")"/>
+        </ees:longName>
+        <ees:standardIdBlock ees:diagnosisVersion="00FFFF" ees:hwObjectNumber="??????????" ees:hwSupplier="Unidentified" ees:hwSupplierCode="" ees:hwVersion="" ees:swVersion=""/>
+        <ees:dtc ees:code="B22D718" ees:statusActive="false" ees:statusEvent="false" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+          <ees:failureText ees:type="XD">
+            <ees:text ees:textId="ITR_6670"/>
+            <ees:text ees:textId="ITR_402"/>
+          </ees:failureText>
+          <ees:linkToAffectedFunction ees:id="5383"/>
+          <ees:standardizedEnvironmentalData>
+            <ees:originalOdometerValue ees:printout="false">
+              <ees:physicalValue>
+                <ees:doubleValue>160</ees:doubleValue>
+                <ees:unit ees:prefix="k" ees:unit="m"/>
+              </ees:physicalValue>
+            </ees:originalOdometerValue>
+            <ees:mostRecentOdometerValue ees:printout="false">
+              <ees:physicalValue>
+                <ees:doubleValue>160</ees:doubleValue>
+                <ees:unit ees:prefix="k" ees:unit="m"/>
+              </ees:physicalValue>
+            </ees:mostRecentOdometerValue>
+            <ees:frequencyCounter ees:printout="false">
+              <ees:doubleValue>1.0</ees:doubleValue>
+            </ees:frequencyCounter>
+            <ees:ignitionCycleCounter ees:printout="false">
+              <ees:doubleValue>22.0</ees:doubleValue>
+            </ees:ignitionCycleCounter>
+          </ees:standardizedEnvironmentalData>
+          <ees:failureShortDescription>MB_PKW/Steuergeraete/Grundmodule/SAM/SAM%20hinten%20-%20STAR2/SHM_FR205.gmf#SG/Pruefungen/Pruefungen%20fuer%20FCs/Steuerung_li_re_BR177_247_118/B22D618_B22D718/Laufzeit_Kurzinfo</ees:failureShortDescription>
+          <ees:additionalEnvironmentalData ees:type="Operating_Time" printout="false">
+            <ees:name ees:type="XD">
+              <ees:text ees:textId="8469-193"/>
+            </ees:name>
+            <ees:value ees:occurrence="LAST_OCCURRENCE">
+              <ees:integerValue>145180465</ees:integerValue>
+            </ees:value>
+          </ees:additionalEnvironmentalData>
+          <ees:additionalEnvironmentalData ees:type="Operating_Time_Status" printout="false">
+            <ees:name ees:type="XD">
+              <ees:text ees:textId="339649-41"/>
+            </ees:name>
+            <ees:value ees:occurrence="LAST_OCCURRENCE">
+              <ees:integerValue>1</ees:integerValue>
+            </ees:value>
+          </ees:additionalEnvironmentalData>
+        </ees:dtc>
+      </ees:slaveEcu>
+      <ees:slaveEcu ees:diogenesName="BCMFA2" ees:statusStored="true">
+        <ees:extendedEcuId ees:ecuSnapshotId="SIH_SIB_MFA2" ees:ecuType="SLAVE" ees:linVsgVariant="__NO_VSG_FILTER" ees:masterEcuSnapshotId="BCMFA2"/>
+        <ees:shortName ees:type="XD">
+          <ees:freeText ees:content="R13/1..4, M18/9..12"/>
+        </ees:shortName>
+        <ees:longName ees:type="XD">
+          <ees:freeText ees:content="R13/1..4, M18/9..12"/>
+          <ees:freeText ees:content="-"/>
+          <ees:text ees:textId="ITR_58528"/>
+          <ees:freeText ees:content="("/>
+          <ees:text ees:textId="ITR_58527"/>
+          <ees:freeText ees:content=")"/>
+        </ees:longName>
+        <ees:standardIdBlock ees:diagnosisVersion="" ees:hwObjectNumber="" ees:hwSupplier="" ees:hwSupplierCode="" ees:hwVersion="" ees:swVersion=""/>
+        <ees:dtc ees:code="B22D718" ees:statusActive="false" ees:statusEvent="false" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+          <ees:failureText ees:type="XD">
+            <ees:text ees:textId="ITR_6670"/>
+            <ees:text ees:textId="ITR_402"/>
+          </ees:failureText>
+          <ees:linkToAffectedFunction ees:id="5383"/>
+          <ees:standardizedEnvironmentalData>
+            <ees:originalOdometerValue ees:printout="false">
+              <ees:physicalValue>
+                <ees:doubleValue>160</ees:doubleValue>
+                <ees:unit ees:prefix="k" ees:unit="m"/>
+              </ees:physicalValue>
+            </ees:originalOdometerValue>
+            <ees:mostRecentOdometerValue ees:printout="false">
+              <ees:physicalValue>
+                <ees:doubleValue>160</ees:doubleValue>
+                <ees:unit ees:prefix="k" ees:unit="m"/>
+              </ees:physicalValue>
+            </ees:mostRecentOdometerValue>
+            <ees:frequencyCounter ees:printout="false">
+              <ees:doubleValue>1.0</ees:doubleValue>
+            </ees:frequencyCounter>
+            <ees:ignitionCycleCounter ees:printout="false">
+              <ees:doubleValue>22.0</ees:doubleValue>
+            </ees:ignitionCycleCounter>
+          </ees:standardizedEnvironmentalData>
+          <ees:failureShortDescription>MB_PKW/Steuergeraete/Grundmodule/SAM/BCMFA2_ODX/SIH_SIB_MFA2_ODX.gmf#SG/Pruefungen/Pruefungen%20fuer%20FCs/BR_177_247_118/Steuerung%3A%20SEATD%20%26%20SEATP/SIB/B22D618_B22D718/Laufzeit_Kurzinfo</ees:failureShortDescription>
+          <ees:additionalEnvironmentalData ees:type="Operating_Time" printout="false">
+            <ees:name ees:type="XD">
+              <ees:text ees:textId="8469-193"/>
+            </ees:name>
+            <ees:value ees:occurrence="LAST_OCCURRENCE">
+              <ees:integerValue>145180465</ees:integerValue>
+            </ees:value>
+          </ees:additionalEnvironmentalData>
+          <ees:additionalEnvironmentalData ees:type="Operating_Time_Status" printout="false">
+            <ees:name ees:type="XD">
+              <ees:text ees:textId="339649-41"/>
+            </ees:name>
+            <ees:value ees:occurrence="LAST_OCCURRENCE">
+              <ees:integerValue>1</ees:integerValue>
+            </ees:value>
+          </ees:additionalEnvironmentalData>
+        </ees:dtc>
+      </ees:slaveEcu>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="BMS20PT30">
+      <ees:extendedEcuId ees:ecuSnapshotId="BMS20PT30" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N82/2"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N82/2"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="10119-21"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="10119-51"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="007014" ees:hwObjectNumber="789 901 91 00" ees:hwSupplier="Deutsche Accumotive GmbH &amp; Co KG" ees:hwSupplierCode="" ees:hwVersion="18/05 000" ees:swVersion="19/04 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareObjectNumber="789 904 58 00" ees:flashwareType="BOOT" ees:flashwareVersion="16/42 000" ees:swSupplier="Deutsche Accumotive GmbH &amp; Co KG" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 42 11" ees:flashwareType="CODE" ees:flashwareVersion="19/04 000" ees:swSupplier="Deutsche Accumotive GmbH &amp; Co KG" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="DCB167">
+      <ees:extendedEcuId ees:ecuSnapshotId="DCB167" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N116/5"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N116/5"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="434614-191"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="492896-1"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="00000F" ees:hwObjectNumber="000 901 44 11" ees:hwSupplier="LG Electronics" ees:hwSupplierCode="" ees:hwVersion="18/50 000" ees:swVersion="19/09 001"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="19/03 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 44 57" ees:flashwareType="CODE" ees:flashwareVersion="19/09 001" ees:swSupplier="LG Electronics" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="000 903 36 38" ees:flashwareType="CODE" ees:flashwareVersion="19/09 001" ees:swSupplier="LG Electronics" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="OBL222_7KW">
+      <ees:extendedEcuId ees:ecuSnapshotId="OBL222_7KW" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N83/11"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N83/11"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_42502"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="13396-271"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="004009" ees:hwObjectNumber="000 901 73 10" ees:hwSupplier="Panasonic" ees:hwSupplierCode="" ees:hwVersion="18/47 000" ees:swVersion="18/34 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/25 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 56 42" ees:flashwareType="CODE" ees:flashwareVersion="18/34 000" ees:swSupplier="Panasonic" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="OMSE118">
+      <ees:extendedEcuId ees:ecuSnapshotId="OMSE118" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="B84/15"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="B84/15"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="451439-61"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="490051-21"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="008501" ees:hwObjectNumber="177 901 55 01" ees:hwSupplier="LG Electronics" ees:hwSupplierCode="" ees:hwVersion="18/04 000" ees:swVersion="19/04 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/42 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="118 902 85 00" ees:flashwareType="CODE" ees:flashwareVersion="19/04 000" ees:swSupplier="LG Electronics" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="118 902 86 00" ees:flashwareType="CODE" ees:flashwareVersion="19/04 000" ees:swSupplier="LG Electronics" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="4" ees:flashwareObjectNumber="118 902 87 00" ees:flashwareType="CODE" ees:flashwareVersion="19/04 000" ees:swSupplier="LG Electronics" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="5" ees:flashwareObjectNumber="118 902 88 00" ees:flashwareType="CODE" ees:flashwareVersion="19/04 000" ees:swSupplier="LG Electronics" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="ORC177">
+      <ees:extendedEcuId ees:ecuSnapshotId="ORC177" ees:ecuType="MASTER"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N2/10"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N2/10"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="13853-1"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="5209-52"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000006" ees:hwObjectNumber="247 901 88 01" ees:hwSupplier="Bosch" ees:hwSupplierCode="" ees:hwVersion="16/25 000" ees:swVersion="18/11 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/12 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 79 06" ees:flashwareType="CODE" ees:flashwareVersion="18/11 000" ees:swSupplier="Bosch" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="247 903 07 01" ees:flashwareType="CODE" ees:flashwareVersion="18/48 000" ees:swSupplier="Bosch" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="4" ees:flashwareObjectNumber="177 903 02 02" ees:flashwareType="CODE" ees:flashwareVersion="17/49 000" ees:swSupplier="Bosch" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="PLI247_FL">
+      <ees:extendedEcuId ees:ecuSnapshotId="PLI247_FL" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="E1n12"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="E1n12"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_30664"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="9854-61"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="008605" ees:hwObjectNumber="247 901 85 02" ees:hwSupplier="Automotive Lighting" ees:hwSupplierCode="" ees:hwVersion="18/23 000" ees:swVersion="18/27 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/14 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 69 02" ees:flashwareType="CODE" ees:flashwareVersion="18/27 000" ees:swSupplier="Automotive Lighting" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="PLI247_FR">
+      <ees:extendedEcuId ees:ecuSnapshotId="PLI247_FR" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="E2n12"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="E2n12"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_30665"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="9854-90"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="008605" ees:hwObjectNumber="247 901 86 02" ees:hwSupplier="Automotive Lighting" ees:hwSupplierCode="" ees:hwVersion="18/23 000" ees:swVersion="18/27 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/14 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 69 02" ees:flashwareType="CODE" ees:flashwareVersion="18/27 000" ees:swSupplier="Automotive Lighting" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="RBTMFL167">
+      <ees:extendedEcuId ees:ecuSnapshotId="RBTMFL167" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="A76"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="A76"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="7656-323"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="7656-321"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="008109" ees:hwObjectNumber="167 901 41 02" ees:hwSupplier="TAKATA-PETRI" ees:hwSupplierCode="" ees:hwVersion="17/34 000" ees:swVersion="18/14 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/25 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="167 902 12 03" ees:flashwareType="CODE" ees:flashwareVersion="18/14 000" ees:swSupplier="TAKATA-PETRI" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="RBTMFR167">
+      <ees:extendedEcuId ees:ecuSnapshotId="RBTMFR167" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="A76/1"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="A76/1"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="7656-324"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="7656-322"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="008109" ees:hwObjectNumber="167 901 40 02" ees:hwSupplier="TAKATA-PETRI" ees:hwSupplierCode="" ees:hwVersion="17/34 000" ees:swVersion="18/14 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/25 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="167 902 12 03" ees:flashwareType="CODE" ees:flashwareVersion="18/14 000" ees:swSupplier="TAKATA-PETRI" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="SCCM177">
+      <ees:extendedEcuId ees:ecuSnapshotId="SCCM177" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N80"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N80"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_3933"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="10471-232"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="002902" ees:hwObjectNumber="177 901 30 03" ees:hwSupplier="Kostal" ees:hwSupplierCode="" ees:hwVersion="18/17 000" ees:swVersion="17/37 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/17 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 02 02" ees:flashwareType="CODE" ees:flashwareVersion="17/37 000" ees:swSupplier="Kostal" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="SOGESTAR2">
+      <ees:extendedEcuId ees:ecuSnapshotId="SOGESTAR2" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="H4/16"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="H4/16"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_73946"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="194125-241"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000202" ees:hwObjectNumber="222 901 69 04" ees:hwSupplier="Delphi" ees:hwSupplierCode="" ees:hwVersion="12/04 001" ees:swVersion="01/06 019"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/45 001"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 85 03" ees:flashwareType="CODE" ees:flashwareVersion="01/06 019" ees:swSupplier="Delphi" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="SWSP177">
+      <ees:extendedEcuId ees:ecuSnapshotId="SWSP177" ees:ecuType="MASTER"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N135"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N135"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_102519"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_102656"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000B00" ees:hwObjectNumber="099 901 62 00" ees:hwSupplier="PREH" ees:hwSupplierCode="" ees:hwVersion="17/30 000" ees:swVersion="17/50 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/37 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="099 902 14 00" ees:flashwareType="CODE" ees:flashwareVersion="17/50 000" ees:swSupplier="PREH" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="VTA177">
+      <ees:extendedEcuId ees:ecuSnapshotId="VTA177" ees:ecuType="MASTER"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N26/6"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N26/6"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_31469"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="2407-1"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000E08" ees:hwObjectNumber="177 901 41 02" ees:hwSupplier="Valeo" ees:hwSupplierCode="" ees:hwVersion="18/03 000" ees:swVersion="18/03 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/03 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 86 03" ees:flashwareType="CODE" ees:flashwareVersion="18/03 000" ees:swSupplier="Valeo" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="ARC177" ees:statusEvent="true">
+      <ees:extendedEcuId ees:ecuSnapshotId="ARC177" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="B84/14"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="B84/14"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="340879-72"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="340879-71"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000022" ees:hwObjectNumber="177 901 23 02" ees:hwSupplier="Magna" ees:hwSupplierCode="" ees:hwVersion="17/24 000" ees:swVersion="17/42 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/24 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 72 03" ees:flashwareType="CODE" ees:flashwareVersion="17/42 000" ees:swSupplier="Magna" ees:swSupplierCode=""/>
+      <ees:dtc ees:code="U016887" ees:statusActive="false" ees:statusEvent="true" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_114"/>
+          <ees:text ees:textId="ITR_898"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="6246"/>
+        <ees:linkToAffectedFunction ees:id="6698"/>
+        <ees:standardizedEnvironmentalData>
+          <ees:originalOdometerValue ees:printout="false">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="Odometer value not available / Default"/>
+            </ees:textValue>
+          </ees:originalOdometerValue>
+          <ees:mostRecentOdometerValue ees:printout="false">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="Odometer value not available / Default"/>
+            </ees:textValue>
+          </ees:mostRecentOdometerValue>
+          <ees:frequencyCounter ees:printout="false">
+            <ees:doubleValue>3.0</ees:doubleValue>
+          </ees:frequencyCounter>
+          <ees:ignitionCycleCounter ees:printout="false">
+            <ees:doubleValue>4.0</ees:doubleValue>
+          </ees:ignitionCycleCounter>
+        </ees:standardizedEnvironmentalData>
+        <ees:failureShortDescription>MB_PKW/Baureihe/BR_Steuergeraete/ODX.gmf#LIST/Aufbau/SGs/EZS/FC_NoComm_Pruefung</ees:failureShortDescription>
+      </ees:dtc>
+      <ees:dtc ees:code="U142686" ees:statusActive="false" ees:statusEvent="true" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_49215"/>
+          <ees:text ees:textId="ITR_1990"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="6246"/>
+        <ees:linkToAffectedFunction ees:id="6698"/>
+        <ees:standardizedEnvironmentalData>
+          <ees:originalOdometerValue ees:printout="false">
+            <ees:physicalValue>
+              <ees:doubleValue>112</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:originalOdometerValue>
+          <ees:mostRecentOdometerValue ees:printout="false">
+            <ees:physicalValue>
+              <ees:doubleValue>112</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:mostRecentOdometerValue>
+          <ees:frequencyCounter ees:printout="false">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:frequencyCounter>
+          <ees:ignitionCycleCounter ees:printout="false">
+            <ees:doubleValue>22.0</ees:doubleValue>
+          </ees:ignitionCycleCounter>
+        </ees:standardizedEnvironmentalData>
+        <ees:failureShortDescription>MB_PKW/Baureihe/BR_Steuergeraete/ODX.gmf#LIST/Information%20und%20Kommunikation/SGs/HU5/FC_NoComm_Pruefung</ees:failureShortDescription>
+      </ees:dtc>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="IDC213" ees:statusEvent="true">
+      <ees:extendedEcuId ees:ecuSnapshotId="IDC213" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N62/4"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N62/4"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="215343-361"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_105367"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000416" ees:hwObjectNumber="213 901 15 07" ees:hwSupplier="Autoliv" ees:hwSupplierCode="" ees:hwVersion="16/15 002" ees:swVersion="18/25 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="16/24 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="213 902 85 19" ees:flashwareType="CODE" ees:flashwareVersion="18/25 000" ees:swSupplier="Autoliv" ees:swSupplierCode=""/>
+      <ees:dtc ees:code="P1D06E1" ees:statusActive="false" ees:statusEvent="true" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_23906"/>
+          <ees:text ees:textId="ITR_403"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="1542"/>
+        <ees:linkToAffectedFunction ees:id="6247"/>
+        <ees:standardizedEnvironmentalData>
+          <ees:frequencyCounter ees:printout="false">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="---"/>
+            </ees:textValue>
+          </ees:frequencyCounter>
+          <ees:ignitionCycleCounter ees:printout="false">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="---"/>
+            </ees:textValue>
+          </ees:ignitionCycleCounter>
+        </ees:standardizedEnvironmentalData>
+        <ees:failureShortDescription>MB_PKW/Steuergeraete/Fahrwerk/Traktion/ESP177_ODX/ESP177_ODX.gmf#SG/Pruefungen/CAN/unplausible%20Eingangssignale/Fehlercodeanzeige%20Sendesteuerger%C3%A4t</ees:failureShortDescription>
+        <ees:additionalEnvironmentalData ees:type="Engine_running" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="405-52"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="engine not running"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Engine_start" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="391-11"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="starter inactive"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="ISW_Stat" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="ITR_31560"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="IGN_On"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="vehicle_speed" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="97-23"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="0 km/h"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Brake_pedal_state" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="192632-873"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="Pedal pressed"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Outside_temperature" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="87215-95"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="+10 to +25?C"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="ECU_supply_voltage" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8465-62"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>12.300000190734863</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="PCB_temperature" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="395-19"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>32</ees:doubleValue>
+              <ees:unit ees:unit="?C"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+      </ees:dtc>
+      <ees:dtc ees:code="P1D06E2" ees:statusActive="false" ees:statusEvent="true" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_23906"/>
+          <ees:text ees:textId="ITR_403"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="1542"/>
+        <ees:linkToAffectedFunction ees:id="6247"/>
+        <ees:standardizedEnvironmentalData>
+          <ees:frequencyCounter ees:printout="false">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="---"/>
+            </ees:textValue>
+          </ees:frequencyCounter>
+          <ees:ignitionCycleCounter ees:printout="false">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="---"/>
+            </ees:textValue>
+          </ees:ignitionCycleCounter>
+        </ees:standardizedEnvironmentalData>
+        <ees:failureShortDescription>MB_PKW/Steuergeraete/Fahrwerk/Traktion/ESP177_ODX/ESP177_ODX.gmf#SG/Pruefungen/CAN/unplausible%20Eingangssignale/Fehlercodeanzeige%20Sendesteuerger%C3%A4t</ees:failureShortDescription>
+        <ees:additionalEnvironmentalData ees:type="Engine_running" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="405-52"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="engine not running"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Engine_start" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="391-11"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="starter inactive"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="ISW_Stat" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="ITR_31560"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="IGN_On"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="vehicle_speed" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="97-23"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="0 km/h"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Brake_pedal_state" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="192632-873"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="Pedal pressed"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Outside_temperature" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="87215-95"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="+10 to +25?C"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="ECU_supply_voltage" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8465-62"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>12.300000190734863</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="PCB_temperature" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="395-19"/>
+          </ees:name>
+          <ees:value ees:occurrence="FIRST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>32</ees:doubleValue>
+              <ees:unit ees:unit="?C"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+      </ees:dtc>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="LRR213">
+      <ees:extendedEcuId ees:ecuSnapshotId="LRR213" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="B92/12"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="B92/12"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="460-161"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_15497"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000125" ees:hwObjectNumber="000 901 06 07" ees:hwSupplier="ADC" ees:hwSupplierCode="" ees:hwVersion="17/19 000" ees:swVersion="18/35 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="16/01 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 11 48" ees:flashwareType="CODE" ees:flashwareVersion="18/35 000" ees:swSupplier="ADC" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="MMR213_R1" ees:statusEvent="true">
+      <ees:extendedEcuId ees:ecuSnapshotId="MMR213_R1" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="B92/7"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="B92/7"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="236089-271"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="10080-143"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="008232" ees:hwObjectNumber="000 901 75 03" ees:hwSupplier="Autoliv" ees:hwSupplierCode="" ees:hwVersion="16/43 001" ees:swVersion="18/30 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="14/40 016"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 61 49" ees:flashwareType="CODE" ees:flashwareVersion="18/30 000" ees:swSupplier="Autoliv" ees:swSupplierCode=""/>
+      <ees:dtc ees:code="C111A00" ees:statusActive="false" ees:statusEvent="true" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_49532"/>
+          <ees:text ees:textId="ITR_403"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="8546"/>
+        <ees:standardizedEnvironmentalData>
+          <ees:frequencyCounter ees:printout="false">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="---"/>
+            </ees:textValue>
+          </ees:frequencyCounter>
+          <ees:ignitionCycleCounter ees:printout="false">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="---"/>
+            </ees:textValue>
+          </ees:ignitionCycleCounter>
+        </ees:standardizedEnvironmentalData>
+        <ees:failureShortDescription>MB_PKW/Steuergeraete/Antrieb/Fahrerassistenzsysteme/Radarsensorik/MMR213_R1_ODX/MMR213_R1.gmf#SG/Pruefungen/Sensor_v1%20ext%20Stoerquelle/Sensor_v1%20ext_Stoerquelle</ees:failureShortDescription>
+      </ees:dtc>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="MMR213_R3">
+      <ees:extendedEcuId ees:ecuSnapshotId="MMR213_R3" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="B92/10"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="B92/10"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="236089-272"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="10080-145"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="008232" ees:hwObjectNumber="000 901 75 03" ees:hwSupplier="Autoliv" ees:hwSupplierCode="" ees:hwVersion="16/43 001" ees:swVersion="18/30 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="14/40 016"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 61 49" ees:flashwareType="CODE" ees:flashwareVersion="18/30 000" ees:swSupplier="Autoliv" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="PARKMAN213">
+      <ees:extendedEcuId ees:ecuSnapshotId="PARKMAN213" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N62"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N62"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="202924-481"/>
+        <ees:freeText ees:content="("/>
+        <ees:freeText ees:content="PARK"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="006750" ees:hwObjectNumber="000 901 32 08" ees:hwSupplier="Valeo" ees:hwSupplierCode="" ees:hwVersion="17/49 000" ees:swVersion="18/33 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/51 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 59 48" ees:flashwareType="CODE" ees:flashwareVersion="18/33 000" ees:swSupplier="Valeo" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="SMPC213">
+      <ees:extendedEcuId ees:ecuSnapshotId="SMPC213" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="A40/13"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="A40/13"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="8100-1"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="8323-22"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="00820D" ees:hwObjectNumber="213 901 86 07" ees:hwSupplier="Autoliv" ees:hwSupplierCode="" ees:hwVersion="16/12 000" ees:swVersion="18/03 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="15/14 001"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 71 01" ees:flashwareType="CODE" ees:flashwareVersion="18/03 000" ees:swSupplier="Autoliv" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="TPMMFA2">
+      <ees:extendedEcuId ees:ecuSnapshotId="TPMMFA2" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N88"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N88"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_516"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="1718-101"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="002003" ees:hwObjectNumber="000 901 24 08" ees:hwSupplier="HuF" ees:hwSupplierCode="" ees:hwVersion="17/36 000" ees:swVersion="17/44 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/36 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="000 902 67 43" ees:flashwareType="CODE" ees:flashwareVersion="17/44 000" ees:swSupplier="HuF" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="EPS_MFA2">
+      <ees:extendedEcuId ees:ecuSnapshotId="EPS_MFA2" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N68"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N68"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="9721-1"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="11495-292"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="00B20B" ees:hwObjectNumber="247 901 52 00" ees:hwSupplier="JTEKT" ees:hwSupplierCode="" ees:hwVersion="16/27 002" ees:swVersion="18/36 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/08 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 27 02" ees:flashwareType="CODE" ees:flashwareVersion="18/36 000" ees:swSupplier="JTEKT" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="ESP177" ees:statusEvent="true">
+      <ees:extendedEcuId ees:ecuSnapshotId="ESP177" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N30/4"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N30/4"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_3094"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_3908"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000E13" ees:hwObjectNumber="177 901 93 02" ees:hwSupplier="Bosch" ees:hwSupplierCode="" ees:hwVersion="18/16 000" ees:swVersion="19/10 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/13 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 77 08" ees:flashwareType="CODE" ees:flashwareVersion="19/10 000" ees:swSupplier="Bosch" ees:swSupplierCode=""/>
+      <ees:dtc ees:code="C058FFF" ees:statusActive="false" ees:statusEvent="true" ees:statusPending="true" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:freeText ees:content="EPM: Electric power train monitoring (EPM): Brake torque fault: FW_Epm_WrongResponsOfElectPowerTrain"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="7106"/>
+        <ees:linkToAffectedFunction ees:id="10930"/>
+        <ees:standardizedEnvironmentalData>
+          <ees:originalOdometerValue ees:printout="false">
+            <ees:physicalValue>
+              <ees:doubleValue>208</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:originalOdometerValue>
+          <ees:mostRecentOdometerValue ees:printout="false">
+            <ees:physicalValue>
+              <ees:doubleValue>208</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+            </ees:physicalValue>
+          </ees:mostRecentOdometerValue>
+          <ees:frequencyCounter ees:printout="false">
+            <ees:doubleValue>1.0</ees:doubleValue>
+          </ees:frequencyCounter>
+          <ees:ignitionCycleCounter ees:printout="false">
+            <ees:doubleValue>0.0</ees:doubleValue>
+          </ees:ignitionCycleCounter>
+        </ees:standardizedEnvironmentalData>
+        <ees:failureShortDescription>MB_PKW/Steuergeraete/Fahrwerk/Traktion/ESP177_ODX/ESP177_ODX.gmf#SG/Pruefungen/DTC_Develop/DTC_Develop</ees:failureShortDescription>
+        <ees:additionalEnvironmentalData ees:type="ENV_Steering_Wheel_Angle" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9598-422"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>0</ees:doubleValue>
+              <ees:unit ees:unit="rad"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="ENV_Supply_Voltage_ECU_Valves" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="262-1">
+              <ees:freeText ees:content="30"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>12.880000114440918</ees:doubleValue>
+              <ees:unit ees:unit="V"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="ENV_Yaw_Rate" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8100-41"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>0</ees:doubleValue>
+              <ees:unit ees:unit="rad"/>
+              <ees:unit ees:exp="-1" ees:unit="s"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="ENV_Driver_brakes" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="ITR_12499"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:textValue ees:type="XD">
+              <ees:freeText ees:content="yes"/>
+            </ees:textValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="ENV_Wheel_Speed_FL" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="9598-641">
+              <ees:text ees:textId="16-174"/>
+            </ees:text>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:physicalValue>
+              <ees:doubleValue>62</ees:doubleValue>
+              <ees:unit ees:prefix="k" ees:unit="m"/>
+              <ees:unit ees:exp="-1" ees:unit="h"/>
+            </ees:physicalValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Operating_Time" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="8469-193"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:integerValue>148619558</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+        <ees:additionalEnvironmentalData ees:type="Operating_Time_Status" printout="false">
+          <ees:name ees:type="XD">
+            <ees:text ees:textId="339649-41"/>
+          </ees:name>
+          <ees:value ees:occurrence="LAST_OCCURRENCE">
+            <ees:integerValue>1</ees:integerValue>
+          </ees:value>
+        </ees:additionalEnvironmentalData>
+      </ees:dtc>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="DISP6" ees:statusStored="true">
+      <ees:extendedEcuId ees:ecuSnapshotId="DISP6" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="A40/16"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="A40/16"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="413399-31"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="12791-81"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="002000" ees:hwObjectNumber="247 901 55 02" ees:hwSupplier="LG Electronics" ees:hwSupplierCode="" ees:hwVersion="17/47 000" ees:swVersion="17/37 002"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/37 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 73 01" ees:flashwareType="CODE" ees:flashwareVersion="17/37 002" ees:swSupplier="LG Electronics" ees:swSupplierCode=""/>
+      <ees:dtc ees:code="B19C531" ees:statusActive="false" ees:statusEvent="false" ees:statusPending="false" ees:statusReadiness="false" ees:statusStored="true" ees:statusWarningIndicator="false">
+        <ees:failureText ees:type="XD">
+          <ees:text ees:textId="ITR_88087"/>
+          <ees:text ees:textId="ITR_751"/>
+        </ees:failureText>
+        <ees:linkToAffectedFunction ees:id="4120"/>
+        <ees:failureShortDescription>MB_PKW/Steuergeraete/Information%20und%20Kommunikation/Audio/DISP/DISP6_ODX/DISP6_ODX.gmf#SG/Pruefungen/Pruefungen%20fuer%20FCs/B19C531_LVDS_HU/Aufruf_aus_FC</ees:failureShortDescription>
+      </ees:dtc>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="HERMES">
+      <ees:extendedEcuId ees:ecuSnapshotId="HERMES" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N112/9"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N112/9"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="206412-142"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="206412-141"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000800" ees:hwObjectNumber="247 901 70 02" ees:hwSupplier="Harman / Becker" ees:hwSupplierCode="" ees:hwVersion="18/22 000" ees:swVersion="18/42 006"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="18/42 006"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 77 03" ees:flashwareType="CODE" ees:flashwareVersion="18/42 006" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="000 902 43 48" ees:flashwareType="CODE" ees:flashwareVersion="18/31 000" ees:swSupplier="Daimler" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="4" ees:flashwareObjectNumber="000 902 41 33" ees:flashwareType="CODE" ees:flashwareVersion="17/12 000" ees:swSupplier="Daimler" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="HU6">
+      <ees:extendedEcuId ees:ecuSnapshotId="HU6" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="A26/17"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="A26/17"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="349349-11"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="341126-1"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="00F127" ees:hwObjectNumber="177 901 40 03" ees:hwSupplier="Harman / Becker" ees:hwSupplierCode="" ees:hwVersion="18/29 000" ees:swVersion="19/14 020"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareObjectNumber="167 904 85 00" ees:flashwareType="BOOT" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="167 902 66 06" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="167 902 70 06" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="4" ees:flashwareObjectNumber="167 903 03 04" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="5" ees:flashwareObjectNumber="167 903 04 04" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="6" ees:flashwareObjectNumber="247 903 21 01" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="7" ees:flashwareObjectNumber="247 903 24 00" ees:flashwareType="CODE" ees:flashwareVersion="18/21 000" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="8" ees:flashwareObjectNumber="247 903 95 00" ees:flashwareType="CODE" ees:flashwareVersion="18/37 000" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="9" ees:flashwareObjectNumber="247 902 68 03" ees:flashwareType="CODE" ees:flashwareVersion="19/03 000" ees:swSupplier="Daimler" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="10" ees:flashwareObjectNumber="167 902 71 06" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="11" ees:flashwareObjectNumber="167 903 07 04" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="12" ees:flashwareObjectNumber="167 903 08 04" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="13" ees:flashwareObjectNumber="167 902 73 06" ees:flashwareType="CODE" ees:flashwareVersion="19/14 020" ees:swSupplier="Harman / Becker" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="HUD177">
+      <ees:extendedEcuId ees:ecuSnapshotId="HUD177" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="A40/12"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="A40/12"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="28026-11"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="458647-81"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="001104" ees:hwObjectNumber="247 901 05 00" ees:hwSupplier="Continental" ees:hwSupplierCode="" ees:hwVersion="17/05 000" ees:swVersion="18/16 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="16/43 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 20 06" ees:flashwareType="CODE" ees:flashwareVersion="18/16 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="177 903 43 02" ees:flashwareType="CODE" ees:flashwareVersion="18/16 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="IC177">
+      <ees:extendedEcuId ees:ecuSnapshotId="IC177" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N133/1"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N133/1"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="ITR_2238"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="4430-1"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="004408" ees:hwObjectNumber="247 901 23 02" ees:hwSupplier="Visteon" ees:hwSupplierCode="" ees:hwVersion="17/43 000" ees:swVersion="19/06 003"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareObjectNumber="177 904 40 01" ees:flashwareType="BOOT" ees:flashwareVersion="19/06 003" ees:swSupplier="Visteon" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 74 11" ees:flashwareType="CODE" ees:flashwareVersion="19/06 003" ees:swSupplier="Visteon" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="177 902 75 11" ees:flashwareType="CODE" ees:flashwareVersion="19/06 003" ees:swSupplier="Visteon" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="4" ees:flashwareObjectNumber="177 902 76 11" ees:flashwareType="CODE" ees:flashwareVersion="19/06 003" ees:swSupplier="Visteon" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="5" ees:flashwareObjectNumber="177 902 77 11" ees:flashwareType="CODE" ees:flashwareVersion="19/06 003" ees:swSupplier="Visteon" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="6" ees:flashwareObjectNumber="177 902 78 11" ees:flashwareType="CODE" ees:flashwareVersion="19/06 003" ees:swSupplier="Visteon" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="TPAD6">
+      <ees:extendedEcuId ees:ecuSnapshotId="TPAD6" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="A105"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="A105"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="55750-291"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="13836-132"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="003101" ees:hwObjectNumber="247 901 44 02" ees:hwSupplier="Marquardt" ees:hwSupplierCode="" ees:hwVersion="17/42 000" ees:swVersion="17/42 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/29 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 35 01" ees:flashwareType="CODE" ees:flashwareVersion="17/42 000" ees:swSupplier="Marquardt" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="WMI6">
+      <ees:extendedEcuId ees:ecuSnapshotId="WMI6" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N123/8"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N123/8"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="11758-44"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="217036-222"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000120" ees:hwObjectNumber="167 901 53 02" ees:hwSupplier="Peiker" ees:hwSupplierCode="" ees:hwVersion="17/40 001" ees:swVersion="18/26 001"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/40 001"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="167 902 31 04" ees:flashwareType="CODE" ees:flashwareVersion="18/26 001" ees:swSupplier="Peiker" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="HVAC177">
+      <ees:extendedEcuId ees:ecuSnapshotId="HVAC177" ees:ecuType="MASTER"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N22/1"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N22/1"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="33-1"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="7169-1"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="001013" ees:hwObjectNumber="247 901 78 01" ees:hwSupplier="Continental" ees:hwSupplierCode="" ees:hwVersion="17/30 003" ees:swVersion="18/30 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareObjectNumber="247 902 13 02" ees:flashwareType="CODE" ees:flashwareVersion="18/30 000" ees:swSupplier="Continental" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="DMFL177">
+      <ees:extendedEcuId ees:ecuSnapshotId="DMFL177" ees:ecuType="MASTER"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N69/1"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N69/1"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="391-4"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="1732-31"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="00850B" ees:hwObjectNumber="177 901 35 02" ees:hwSupplier="Temic" ees:hwSupplierCode="" ees:hwVersion="17/34 000" ees:swVersion="18/30 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="16/22 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 97 06" ees:flashwareType="CODE" ees:flashwareVersion="18/30 000" ees:swSupplier="Temic" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="DMFR177">
+      <ees:extendedEcuId ees:ecuSnapshotId="DMFR177" ees:ecuType="MASTER"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N69/2"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N69/2"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="391-5"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="1732-32"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="00850B" ees:hwObjectNumber="177 901 38 02" ees:hwSupplier="Temic" ees:hwSupplierCode="" ees:hwVersion="17/34 000" ees:swVersion="18/30 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="16/22 000"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="177 902 97 06" ees:flashwareType="CODE" ees:flashwareVersion="18/30 000" ees:swSupplier="Temic" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="PTCM167">
+      <ees:extendedEcuId ees:ecuSnapshotId="PTCM167" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N121/1"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N121/1"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="7626-3"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="7626-1"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000802" ees:hwObjectNumber="247 901 09 00" ees:hwSupplier="Delphi" ees:hwSupplierCode="" ees:hwVersion="17/08 000" ees:swVersion="18/22 002"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/12 003"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 902 20 02" ees:flashwareType="CODE" ees:flashwareVersion="18/22 002" ees:swSupplier="Delphi" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="SEATD167">
+      <ees:extendedEcuId ees:ecuSnapshotId="SEATD167" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N32/1"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N32/1"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="11070-31"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="4440-1"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000107" ees:hwObjectNumber="247 901 88 00" ees:hwSupplier="Conti Temic" ees:hwSupplierCode="" ees:hwVersion="17/05 000" ees:swVersion="18/11 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/05 001"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 903 69 00" ees:flashwareType="CODE" ees:flashwareVersion="18/11 000" ees:swSupplier="Conti Temic" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="247 902 18 02" ees:flashwareType="CODE" ees:flashwareVersion="18/11 000" ees:swSupplier="Conti Temic" ees:swSupplierCode=""/>
+    </ees:ecu>
+    <ees:ecu ees:diogenesName="SEATP167">
+      <ees:extendedEcuId ees:ecuSnapshotId="SEATP167" ees:ecuType="SINGLE"/>
+      <ees:shortName ees:type="XD">
+        <ees:freeText ees:content="N32/2"/>
+      </ees:shortName>
+      <ees:longName ees:type="XD">
+        <ees:freeText ees:content="N32/2"/>
+        <ees:freeText ees:content="-"/>
+        <ees:text ees:textId="11070-51"/>
+        <ees:freeText ees:content="("/>
+        <ees:text ees:textId="ITR_12408"/>
+        <ees:freeText ees:content=")"/>
+      </ees:longName>
+      <ees:standardIdBlock ees:diagnosisVersion="000107" ees:hwObjectNumber="247 901 01 00" ees:hwSupplier="Conti Temic" ees:hwSupplierCode="" ees:hwVersion="17/05 000" ees:swVersion="18/11 000"/>
+      <ees:softwareIdBlock ees:countId="1" ees:flashwareType="BOOT" ees:flashwareVersion="17/05 001"/>
+      <ees:softwareIdBlock ees:countId="2" ees:flashwareObjectNumber="247 903 69 00" ees:flashwareType="CODE" ees:flashwareVersion="18/11 000" ees:swSupplier="Conti Temic" ees:swSupplierCode=""/>
+      <ees:softwareIdBlock ees:countId="3" ees:flashwareObjectNumber="247 902 19 02" ees:flashwareType="CODE" ees:flashwareVersion="18/11 000" ees:swSupplier="Conti Temic" ees:swSupplierCode=""/>
+    </ees:ecu>
+  </ees:ecuList>
+  <ees:snapshotAffectedFunctionList>
+    <ees:snapshotAffectedFunction ees:id="6698" ees:statusStored="true"/>
+    <ees:snapshotAffectedFunction ees:id="10454" ees:statusStored="true"/>
+    <ees:snapshotAffectedFunction ees:id="196" ees:statusStored="true"/>
+    <ees:snapshotAffectedFunction ees:id="132" ees:statusStored="true"/>
+    <ees:snapshotAffectedFunction ees:id="5383" ees:statusStored="true"/>
+    <ees:snapshotAffectedFunction ees:id="6246" ees:statusEvent="true"/>
+    <ees:snapshotAffectedFunction ees:id="1542" ees:statusEvent="true"/>
+    <ees:snapshotAffectedFunction ees:id="6247" ees:statusEvent="true"/>
+    <ees:snapshotAffectedFunction ees:id="8546" ees:statusEvent="true"/>
+    <ees:snapshotAffectedFunction ees:id="7106" ees:statusEvent="true"/>
+    <ees:snapshotAffectedFunction ees:id="10930" ees:statusEvent="true"/>
+    <ees:snapshotAffectedFunction ees:id="4120" ees:statusStored="true"/>
+  </ees:snapshotAffectedFunctionList>
+  <ees:flexibleData ees:type="Ramses">
+    <ees:name ees:type="DDA">
+      <ees:freeText ees:content="Ramses"/>
+    </ees:name>
+    <ees:bag ees:type="MaintenanceData">
+      <ees:name ees:type="DDA">
+        <ees:freeText ees:content="Maintenance Data"/>
+      </ees:name>
+      <ees:item ees:type="ExternalTesterPresent">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="External Tester Present"/>
+        </ees:name>
+        <ees:value>
+          <ees:textValue ees:type="DDA">
+            <ees:freeText ees:content="SNA"/>
+          </ees:textValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'2019-04-18T07:12:31.000Z'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="LanguageHU">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Selected language (HU/IC)"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>0</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'2019-04-04T08:42:38.000Z'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="ServiceContent">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Service Content"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>1</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'2019-04-22T18:29:43.000Z'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="ServiceIntervalDays">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Maintenance interval"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>358</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'2019-04-23T02:40:22.000Z'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+    </ees:bag>
+  </ees:flexibleData>
+  <ees:flexibleData ees:type="VehicleDataReport">
+    <ees:name ees:type="DDA">
+      <ees:freeText ees:content="Vehicle Data Report"/>
+    </ees:name>
+    <ees:bag ees:type="Miscellaneous">
+      <ees:name ees:type="DDA">
+        <ees:freeText ees:content="Miscellaneous Information"/>
+      </ees:name>
+      <ees:item ees:type="Odometer">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Odometer"/>
+        </ees:name>
+        <ees:value>
+          <ees:physicalValue>
+            <ees:doubleValue>437</ees:doubleValue>
+            <ees:unit ees:prefix="k" ees:unit="m"/>
+          </ees:physicalValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="''"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988273'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="KMatrixVersion">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="K-Matrix-Version"/>
+        </ees:name>
+        <ees:value>
+          <ees:stringValue>2018/17/-/2.3/diag</ees:stringValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988303000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+    </ees:bag>
+    <ees:bag ees:type="MaintenanceData">
+      <ees:name ees:type="DDA">
+        <ees:freeText ees:content="Maintenance Data"/>
+      </ees:name>
+      <ees:item ees:type="Maintenance1">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Maintenance state (Maintenance 1)"/>
+        </ees:name>
+        <ees:value>
+          <ees:stringValue>quYBTS2xCwA=</ees:stringValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555987882000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="Maintenance2">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Maintenance service code (Maintenance 2)"/>
+        </ees:name>
+        <ees:value>
+          <ees:stringValue>AAAACigAAAA=</ees:stringValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555987219000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="IC_A13">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Maintenance state (IS_A13)"/>
+        </ees:name>
+        <ees:value>
+          <ees:textValue ees:type="DDA">
+            <ees:freeText ees:content="SNA"/>
+          </ees:textValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'4'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1554367358000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="IC_A14">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Maintenance service code (IC_A14)"/>
+        </ees:name>
+        <ees:value>
+          <ees:textValue ees:type="DDA">
+            <ees:freeText ees:content="SNA"/>
+          </ees:textValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'4'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1554367358000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+    </ees:bag>
+    <ees:bag ees:type="InformationData">
+      <ees:name ees:type="DDA">
+        <ees:freeText ees:content="Information Data"/>
+      </ees:name>
+      <ees:item ees:type="SupplyBatteryVoltage">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Supply Battery Voltage"/>
+        </ees:name>
+        <ees:value>
+          <ees:physicalValue>
+            <ees:doubleValue>12.8</ees:doubleValue>
+            <ees:unit ees:unit="V"/>
+          </ees:physicalValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988205000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="DisplayedTankLevelRatio">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Displayed Tank Level Ratio"/>
+        </ees:name>
+        <ees:value>
+          <ees:physicalValue>
+            <ees:doubleValue>100.0</ees:doubleValue>
+            <ees:unit ees:unit="%"/>
+          </ees:physicalValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988299000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="TireMarker">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Tire Marker"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>0</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988299000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="TirePressureMonitorWarning">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Tire Pressure Monitor Warning"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>0</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988299000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="TirePressureScope">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Tire Pressure Scope"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>2</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988299000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="TireWarningLamp">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Tire Warning Lamp"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>0</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988299000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="TirePressureFrontLeft">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Tire Pressure Front Left"/>
+        </ees:name>
+        <ees:value>
+          <ees:physicalValue>
+            <ees:doubleValue>2.8</ees:doubleValue>
+            <ees:unit ees:unit="bar"/>
+          </ees:physicalValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555987661000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="TirePressureFrontRight">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Tire Pressure Front Right"/>
+        </ees:name>
+        <ees:value>
+          <ees:physicalValue>
+            <ees:doubleValue>2.8</ees:doubleValue>
+            <ees:unit ees:unit="bar"/>
+          </ees:physicalValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988211000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="TirePressureRearLeft">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Tire Pressure Rear Left"/>
+        </ees:name>
+        <ees:value>
+          <ees:physicalValue>
+            <ees:doubleValue>2.6</ees:doubleValue>
+            <ees:unit ees:unit="bar"/>
+          </ees:physicalValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988031000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="TirePressureRearRight">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Tire Pressure Rear Right"/>
+        </ees:name>
+        <ees:value>
+          <ees:physicalValue>
+            <ees:doubleValue>2.6</ees:doubleValue>
+            <ees:unit ees:unit="bar"/>
+          </ees:physicalValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555987694000'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="BrakeLiningWearIndicationLampOnRequest">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="Brake Lining Wear Indication Lamp On Request"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>0</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988299000'"/>
+          <ees:freeText ees:content="for HIL-ID"/>
+          <ees:freeText ees:content="'0x200029'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+      <ees:item ees:type="EngineCoolantLevel">
+        <ees:name ees:type="DDA">
+          <ees:freeText ees:content="EngineCoolantLevel"/>
+        </ees:name>
+        <ees:value>
+          <ees:integerValue>0</ees:integerValue>
+        </ees:value>
+        <ees:status ees:type="DDA">
+          <ees:freeText ees:content="Status"/>
+          <ees:freeText ees:content="'0'"/>
+          <ees:freeText ees:content="at time"/>
+          <ees:freeText ees:content="'1555988299000'"/>
+          <ees:freeText ees:content="for HIL-ID"/>
+          <ees:freeText ees:content="'0x200067'"/>
+          <ees:freeText ees:content="."/>
+        </ees:status>
+      </ees:item>
+    </ees:bag>
+    <ees:bag ees:type="Navigationssoftwarestand">
+      <ees:name ees:type="XD">
+        <ees:freeText ees:content="Navigationssoftwarestand"/>
+      </ees:name>
+      <ees:item ees:type="Ist">
+        <ees:name ees:type="XD">
+          <ees:text ees:textId="8377-133"/>
+        </ees:name>
+        <ees:value>
+          <ees:textValue ees:type="XD">
+            <ees:freeText ees:content="2018 (V8.0) EUROPE [NO_VALUE]"/>
+          </ees:textValue>
+        </ees:value>
+      </ees:item>
+    </ees:bag>
+  </ees:flexibleData>
+</ees:eeSnapshot>

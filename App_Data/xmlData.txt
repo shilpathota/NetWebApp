@@ -1,0 +1,1 @@
+{"MessageContent": "XML_INPUT_PAYLOAD","jmsURI":"jms:jndi:QUEUE_JNDI_NAME?jndiURL=iiop://localhost:9811&jndiInitialContextFactory=com.ibm.websphere.naming.WsnInitialContextFactory&jndiConnectionFactoryName=QUEUE_CONNECTIONFACTORY_JNDI_NAME","messageProperties":"MESSAGE_PROPERTIES"}
